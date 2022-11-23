@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669174014166' stop='1669174043625'>
+    <name>Create Account</name>
+    <title>Create Account</title>
+    <test-cases>
+        <test-case start='1669174014167' status='passed' stop='1669174020812'>
+            <name>should successfully create account with valid credentials</name>
+            <title>should successfully create account with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669174020812' status='passed' stop='1669174026740'>
+            <name>should successfully add product to cart</name>
+            <title>should successfully add product to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669174026741' status='broken' stop='1669174043620'>
+            <name>should successfully place order of purchase</name>
+            <title>should successfully place order of purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 10000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 10000ms
+                    at C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async PurchaseProdPage.purchaseProduct (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\test\pageobjects\purchaseProd.page.js:81:9)
+                    at async Context.&lt;anonymous> (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\test\specs\workflow.e2e.js:42:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669174043621' status='passed' stop='1669174043622'>
+            <name>should verify purchase of order</name>
+            <title>should verify purchase of order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

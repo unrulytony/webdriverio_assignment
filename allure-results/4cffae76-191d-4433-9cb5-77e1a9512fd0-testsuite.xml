@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669170180578' stop='1669170207902'>
+    <name>Create Account</name>
+    <title>Create Account</title>
+    <test-cases>
+        <test-case start='1669170180578' status='passed' stop='1669170185789'>
+            <name>should successfully create account with valid credentials</name>
+            <title>should successfully create account with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669170185790' status='passed' stop='1669170190326'>
+            <name>should successfully add product to cart</name>
+            <title>should successfully add product to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669170190326' status='broken' stop='1669170207899'>
+            <name>should successfully place order of purchase</name>
+            <title>should successfully place order of purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'parent')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'parent')
+                    at getBrowserObject (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\expect-webdriverio\lib\utils.js:174:23)
+                    at Object.toExistFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\expect-webdriverio\lib\matchers\element\toBeExisting.js:10:56)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\test\specs\workflow.e2e.js:44:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
