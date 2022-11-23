@@ -14,4 +14,7 @@ Installs the dependencies and creates the node modules folder.<br />
 
 Once you've added your test spec to the relevant folder (/test/specs), update the `scripts` object in your `package.json` file to include the command you'll be using to execute your test.<br/>
 
-Eg: If I create a test for `Buttons` at the following path `./test/specs/buttons.e2e.js `. I could then add `"button-test": "npx wdio run wdio.conf.js --spec ./test/specs/buttons.e2e.js"` to the scripts object of my package.json file.<br/>
+Eg: If I create a test for `Buttons` at the following path `./test/specs/buttons.e2e.js `. I could then add `"button-test": "npx wdio run wdio.conf.js --spec ./test/specs/buttons.e2e.js"` to the scripts object of my package.json file.
+
+`"workflowTest": "npx wdio run wdio.conf.js --spec ./test/specs/workflo.e2e.js"` To run automation test for workflow assignment
+<br/>

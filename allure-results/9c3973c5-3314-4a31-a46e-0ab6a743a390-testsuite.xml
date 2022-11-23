@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669180263398' stop='1669180293720'>
+    <name>Create Account</name>
+    <title>Create Account</title>
+    <test-cases>
+        <test-case start='1669180263400' status='passed' stop='1669180273293'>
+            <name>should successfully create account with valid credentials</name>
+            <title>should successfully create account with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-107.0.1418.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669180273294' status='passed' stop='1669180281339'>
+            <name>should successfully add product to cart</name>
+            <title>should successfully add product to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-107.0.1418.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669180281340' status='broken' stop='1669180293715'>
+            <name>should successfully place order of purchase</name>
+            <title>should successfully place order of purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-107.0.1418.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: MicrosoftEdge=107.0.1418.52)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: MicrosoftEdge=107.0.1418.52)
+                    at getErrorFromResponseBody (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\aclea\UI Automation Bootcamp JS\Anthony_Mclean_WebdriverIO_Assignment\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669180293716' status='passed' stop='1669180293718'>
+            <name>should verify purchase of order</name>
+            <title>should verify purchase of order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-107.0.1418.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
